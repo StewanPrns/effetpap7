@@ -66,8 +66,8 @@ function Boid(x, y) {
   this.velocity = createVector(random(-1, 1), random(-1, 1));
   this.position = createVector(x, y);
   this.r = 3.0;
-  this.maxspeed = 5; // Maximum speed
-  this.maxforce = 0.5; // Maximum steering force
+  this.maxspeed = 20; // Maximum speed
+  this.maxforce = 1; // Maximum steering force
   this.points = [];
   this.xwing = 48;
   this.pas = 36;
