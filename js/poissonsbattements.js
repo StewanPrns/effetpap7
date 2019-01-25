@@ -24,8 +24,8 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  clear();
+  background(155);
+  //clear();
   //tint(0,0,200);
   image(img, (windowWidth/2)-240,200);
   flock.run();
